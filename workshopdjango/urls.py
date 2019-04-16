@@ -21,5 +21,6 @@ from hello import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='hello_index'),
-    path('bye-bye', views.bye, name='hello_byebye'),
+    path('hello', views.hello, name='hello_hello'),
+    path('bye-bye', views.bye, name='hello_bye'),
 ]
